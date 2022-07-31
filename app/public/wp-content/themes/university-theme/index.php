@@ -2,10 +2,12 @@ custom theme
 
 <?php
 
-function sayHello(): void
+function sayHello($name, $color): void
 {
-    echo "Hello";
+    echo "<p>Hello, my name is $name, and my favorite color is $color</p>";
 }
-sayHello();
+sayHello("bob", "red");
+
+
 
 ?>
