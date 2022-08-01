@@ -34,7 +34,7 @@ while (have_posts()) {
 
         <?php
         $testArray = get_pages(array(
-             'child_of' => get_the_ID()
+            'child_of' => get_the_ID()
         ));
         if ($theParent or $testArray) { ?>
             <div class="page-links">
