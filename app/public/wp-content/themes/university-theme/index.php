@@ -1,5 +1,3 @@
-custom theme
-
 <?php
 
 function sayHello($name, $color): void
@@ -8,6 +6,7 @@ function sayHello($name, $color): void
 }
 sayHello("bob", "red");
 
-
-
 ?>
+
+<h1><?php bloginfo('description'); ?></h1>
+
