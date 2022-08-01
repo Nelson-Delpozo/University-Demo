@@ -1,0 +1,18 @@
+[01-Aug-2022 21:20:13 UTC] PHP Warning:  Use of undefined constant L - assumed 'L' (this will throw an Error in a future version of PHP) in /Users/nelsondelpozo/Local Sites/university-demo/app/public/wp-content/themes/university-theme/index.php on line 23
+[01-Aug-2022 21:20:13 UTC] PHP Stack trace:
+[01-Aug-2022 21:20:13 UTC] PHP   1. {main}() /Users/nelsondelpozo/Local Sites/university-demo/app/public/index.php:0
+[01-Aug-2022 21:20:13 UTC] PHP   2. require() /Users/nelsondelpozo/Local Sites/university-demo/app/public/index.php:17
+[01-Aug-2022 21:20:13 UTC] PHP   3. require_once() /Users/nelsondelpozo/Local Sites/university-demo/app/public/wp-blog-header.php:19
+[01-Aug-2022 21:20:13 UTC] PHP   4. include() /Users/nelsondelpozo/Local Sites/university-demo/app/public/wp-includes/template-loader.php:106
+[01-Aug-2022 21:20:13 UTC] PHP Warning:  Use of undefined constant L - assumed 'L' (this will throw an Error in a future version of PHP) in /Users/nelsondelpozo/Local Sites/university-demo/app/public/wp-content/themes/university-theme/index.php on line 23
+[01-Aug-2022 21:20:13 UTC] PHP Stack trace:
+[01-Aug-2022 21:20:13 UTC] PHP   1. {main}() /Users/nelsondelpozo/Local Sites/university-demo/app/public/index.php:0
+[01-Aug-2022 21:20:13 UTC] PHP   2. require() /Users/nelsondelpozo/Local Sites/university-demo/app/public/index.php:17
+[01-Aug-2022 21:20:13 UTC] PHP   3. require_once() /Users/nelsondelpozo/Local Sites/university-demo/app/public/wp-blog-header.php:19
+[01-Aug-2022 21:20:13 UTC] PHP   4. include() /Users/nelsondelpozo/Local Sites/university-demo/app/public/wp-includes/template-loader.php:106
+[01-Aug-2022 21:20:13 UTC] PHP Warning:  Use of undefined constant L - assumed 'L' (this will throw an Error in a future version of PHP) in /Users/nelsondelpozo/Local Sites/university-demo/app/public/wp-content/themes/university-theme/index.php on line 23
+[01-Aug-2022 21:20:13 UTC] PHP Stack trace:
+[01-Aug-2022 21:20:13 UTC] PHP   1. {main}() /Users/nelsondelpozo/Local Sites/university-demo/app/public/index.php:0
+[01-Aug-2022 21:20:13 UTC] PHP   2. require() /Users/nelsondelpozo/Local Sites/university-demo/app/public/index.php:17
+[01-Aug-2022 21:20:13 UTC] PHP   3. require_once() /Users/nelsondelpozo/Local Sites/university-demo/app/public/wp-blog-header.php:19
+[01-Aug-2022 21:20:13 UTC] PHP   4. include() /Users/nelsondelpozo/Local Sites/university-demo/app/public/wp-includes/template-loader.php:106
