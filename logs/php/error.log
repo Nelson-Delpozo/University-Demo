@@ -16,3 +16,4 @@
 [01-Aug-2022 21:20:13 UTC] PHP   2. require() /Users/nelsondelpozo/Local Sites/university-demo/app/public/index.php:17
 [01-Aug-2022 21:20:13 UTC] PHP   3. require_once() /Users/nelsondelpozo/Local Sites/university-demo/app/public/wp-blog-header.php:19
 [01-Aug-2022 21:20:13 UTC] PHP   4. include() /Users/nelsondelpozo/Local Sites/university-demo/app/public/wp-includes/template-loader.php:106
+[01-Aug-2022 21:43:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/nelsondelpozo/Local Sites/university-demo/app/public/wp-content/themes/university-theme/single.php on line 21
