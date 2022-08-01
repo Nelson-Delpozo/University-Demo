@@ -10,3 +10,11 @@ sayHello("bob", "red");
 
 <h1><?php bloginfo('description'); ?></h1>
 
+<?php
+$names = array("Me", "You", "BooBoo", "Kitty");
+
+$count = 0;
+while($count < count($names)){
+    echo "<h2>Hello, $names[$count]</h2>";
+    $count++;
+}
