@@ -18,6 +18,7 @@ get_header();
             </h1>
             <div class="page-banner__intro">
 <!--                <p>All the Latest News</p>-->
+                <?php the_archive_description(); ?>
             </div>
         </div>
     </div>
