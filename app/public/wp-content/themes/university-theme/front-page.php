@@ -48,7 +48,7 @@ get_header(); ?>
         <div class="full-width-split__two">
             <div class="full-width-split__inner">
                 <h2 class="headline headline--small-plus t-center">From Our Blogs</h2>
-
+                hello there
                 <div class="event-summary">
                     <a class="event-summary__date event-summary__date--beige t-center" href="#">
                         <span class="event-summary__month">Jan</span>
@@ -60,6 +60,7 @@ get_header(); ?>
                         <p>For the 100th year in a row we are voted #1. <a href="#" class="nu gray">Read more</a></p>
                     </div>
                 </div>
+
                 <div class="event-summary">
                     <a class="event-summary__date event-summary__date--beige t-center" href="#">
                         <span class="event-summary__month">Feb</span>
@@ -73,7 +74,7 @@ get_header(); ?>
                     </div>
                 </div>
 
-                <p class="t-center no-margin"><a href="#" class="btn btn--yellow">View All Blog Posts</a></p>
+                <p class="t-center no-margin"><a href="<?php get_site_url('/blog') ?>" class="btn btn--yellow">View All Blog Posts</a></p>
             </div>
         </div>
     </div>
