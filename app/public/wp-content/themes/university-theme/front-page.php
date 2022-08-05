@@ -58,7 +58,7 @@ get_header(); ?>
                 while ($homepagePosts -> have_posts()) {
                     $homepagePosts -> the_post(); ?>
                     <div class="event-summary">
-                        <a class="event-summary__date event-summary__date--beige t-center" href="#">
+                        <a class="event-summary__date event-summary__date--beige t-center" href="<?php the_permalink(); ?>">
                             <span class="event-summary__month"><?php the_time('M'); ?></span>
                             <span class="event-summary__day"><?php the_time('d'); ?></span>
                         </a>
@@ -69,6 +69,7 @@ get_header(); ?>
                     </div>
 
                 <?php }
+                wp_reset_postdata();
                 ?>
 <!--                <div class="event-summary">-->
 <!--                    <a class="event-summary__date event-summary__date--beige t-center" href="#">-->
