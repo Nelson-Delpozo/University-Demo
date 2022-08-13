@@ -22,5 +22,14 @@ function university_features(): void
     add_theme_support('title-tag');
 
 }
-
 add_action('after_setup_theme', 'university_features');
+
+function university_post_types(): void
+{
+    register_post_type('event', array(
+
+    ));
+}
+add_action('init', 'university_post_types');
+
+
